@@ -22,6 +22,14 @@ header {
   font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
   color: white;
+
+}
+
+.imgL {
+
+height: 100px;
+width: auto;
+
 }
 
 .container {
@@ -233,6 +241,23 @@ background-color: red;
 /*ajustes responsive*/
 
 @media screen and (max-width: 768px) {
+
+  .logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: white;
+  }
+
+.imgL {
+
+height: 100px;
+width: auto;
+
+  }
+
   #item-carrusel {
     width: 100%;
     margin-left: 0;
@@ -306,6 +331,21 @@ background-color: red;
 }
 
 @media screen and (max-height: 768px) {
+
+  .logo {
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: white;
+}
+
+.imgL {
+
+height: 100px;
+width: auto;
+
+}
   #item-carrusel {
     width: 100%;
     margin-left: 0;
