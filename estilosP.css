@@ -230,10 +230,82 @@ background-color: red;
 }
 
 
-
-
 /*ajustes responsive*/
+
 @media screen and (max-width: 768px) {
+  #item-carrusel {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+
+  .carrusel {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .tarjetac {
+    height: auto;
+  }
+
+  .tarjetac img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .flechasc {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cuboTotal {
+
+    display: flex;
+    
+    }
+    
+    .cuboJ {
+    
+    height: 800px;
+    width: 30%;
+    background-color: green;
+    
+    }
+    
+    .cuboC {
+    
+    height: 800px;
+    width: 30%;
+    background-color: cadetblue; 
+      
+    }
+    
+    .cuboT {
+    
+    height: 800px;
+    width: 30%;
+    background-color: chocolate; 
+    
+    }
+    
+    .cuboJau {
+    
+    height: 800px;
+    width: 30%;
+    background-color: red;  
+    
+    }
+}
+
+@media screen and (max-height: 768px) {
   #item-carrusel {
     width: 100%;
     margin-left: 0;
