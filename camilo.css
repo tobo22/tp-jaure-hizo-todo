@@ -1,0 +1,53 @@
+#titulo-principal{
+    text-shadow: 2px 2px 2px rgb(76, 76, 76);
+    color: orange;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+.logo{
+ 
+}
+.nombre-juego{
+    text-shadow: 2px 2px 2px rgb(76, 76, 76);
+    color: grey;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.descripcion{
+    text-shadow: 2px 2px 2px rgb(76, 76, 76);
+    text-align: left;
+    background-image: url(texto\ camilo.jpg);
+    background-color: rgb(255, 242, 0);
+    padding: 15px;
+    font-size: 16px;
+    border-left: 4px solid rgb(128, 0, 255));
+    margin: 10px;
+    width: 500px;
+}
+.subtitulo{
+    font-size: 20px;
+    color:rgb(255, 115, 0);
+    margin-top: 30px;
+}
+ul{
+    box-shadow: 1px 1px 1px 10px rgb(71, 71, 71));  2
+    border-radius: 2%;
+    text-shadow: 2px 2px 2px rgb(76, 76, 76);
+    background-color:rgb(225, 227, 255);
+    padding: 10px;
+    border: 2px dashed rgb(255, 255, 255);
+    width: 450px;
+}
+.firma{
+    text-shadow: 2px 2px 2px rgb(76, 76, 76);
+    text-align: right;
+    font-style: italic;
+    color:blue;
+    font-size: 14px;
+}
+section{
+    background-image: url(fondo\ camilo.jpg);
+}
