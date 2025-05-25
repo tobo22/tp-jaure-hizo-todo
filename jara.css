@@ -53,22 +53,7 @@ text-align: center;
     background-color: black;
     border: solid 2px red;
     border-radius: 20px;
-    width: 20%;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.personaje
-{
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    background-color: black;
-    border: solid 2px red;
-    border-radius: 20px;
-    width: 20%;
+    width: 25%;
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -88,11 +73,12 @@ text-align: center;
 
 .dioses
 {
-    display: flex;
     justify-content: center;
+    display: flex;
     align-items: center;
     gap: 230px;
     flex-wrap: wrap;
+    overflow: hidden
 }
 
 div
@@ -109,31 +95,13 @@ div
 flex-wrap: wrap;
 
 }
-.d1
+.d
 {
-    border-radius: 20px;
-    border: solid 9px red;
-    background-color: black;
-  width: auto;
-  height: 300px;
-}
-
-.d2
-{
-    border-radius: 20px;
-    border: solid 9px red;
-    background-color: black;
-    width: auto;
-    height: 300px;
-}
-
-.d3
-{
-    border-radius: 20px;
-    border: solid 9px red;
-    background-color: black;
-    width: auto;
-    height: 300px;
+  border-radius: 20px;
+  border: solid 9px red;
+  background-color: black;
+  width: 80%;
+  height: auto;
 }
 
 
@@ -288,7 +256,7 @@ flex-wrap: wrap;
     background-color: black;
     border: solid 2px red;
     border-radius: 20px;
-    width: 50%;
+    width: 60%;
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -300,8 +268,9 @@ flex-wrap: wrap;
 }
 
 
+
 /* Responsive para pantallas en orientación horizontal baja (landscape) */
-@media (max-height: 700px) and (max-width: 400px) {
+@media (max-width: 400px) {
 
   .sub
 {
@@ -310,7 +279,7 @@ flex-wrap: wrap;
     background-color: black;
     border: solid 2px red;
     border-radius: 20px;
-    width: 90%;
+    width: 85%;
     padding: 20px;
     text-align: center;
     margin: auto;
